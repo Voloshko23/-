@@ -1,0 +1,46 @@
+h1{
+    border: 2em groove #96ecf8;
+}
+header{
+    border:  23px groove green;
+}
+main{
+    border:  12px outset red;
+}
+footer{
+    border: 3px double red;
+}
+ body{
+     border: 27px dotted #e8e8e8 ;
+ }
+section{
+    border: 2px dotted black;
+}
+.page-footer{
+    padding: 20px;
+    background: #96ecf8;
+   
+}
+
+body{
+    color: black ;
+    font-size: 16px;
+    line-height: 26px;
+    background: #ffffff url("bg.png") no-repeat top center;
+}
+
+main{
+    border: 5px solid #2d508f;
+
+}
+.skills { 
+    background-color:#e8e8e8; 
+    margin:0; 
+    margin-bottom:10px;
+}
+.skills-level {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    background-color: #47bb52;
+}
