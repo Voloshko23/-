@@ -1,75 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
-
 * {
-	font-family: 'Montserrat', sans-serif;
-}
-
-h1 span{
-	font-family: 'Rubik Iso', cursive;
-
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: #000;
+  background: linear-gradient(45deg, rgb(240, 240, 240), rgb(144, 139, 139));
 }
-.container{
-	width:768px;
-	margin: 0 auto;
-}
-.page-header,
-.page-footer{
-	background-color:#8aea92 ;
-
-}
-
-.product{
-	position:relative;
-	padding: 20px;
-	min-height: 120px;
-	background-color:#fff;
-	border-radius: 15px;
-	list-style: none;
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("bg.jpg") no-repeat center;
 }
 
-.products-list{
-	padding: 10px 20px;
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	column-gap: 10px;
+.target {
+  position: absolute;
+  top: 20%;
+  right: 29%;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border: 2px solid black;
 }
-.product > h2{
-	color:#80ada0;
+li {
+  width: 20px;
+  height: 20px;
+  list-style: none;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50%;
 }
-
-.product-1{
-background-color: pink;
-color: RED;
+.shooter-2 {
+  position: absolute;
+  top: 30%;
+  right: 29%;
 }
-
-.product-2{
-background-color: #8988f2;
-color: #fff42b;
-
-}
-
-
-
-.product-3 {
-    background-color: #bb00f1;
-color:#8aea92;
-}
-
-
-.product-4 {
-    background-color: #14f4fb;
-color:#9f9f9f;
-}
-
-
-
-
-
-
-
-
